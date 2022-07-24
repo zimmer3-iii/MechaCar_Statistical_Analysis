@@ -50,6 +50,13 @@
 	- Assuming our significance level was the common 0.05 percent, our p-value of 0.0005911 is below our significance level. Therefore, we do have sufficient evidence to reject the null hypothesis, and we would state that the two means are statistically different.
 - **Lot#03 Vs Population**
 	- Assuming our significance level was the common 0.05 percent, our p-value of 0.1589 is above our significance level. Therefore, we do not have sufficient evidence to reject the null hypothesis, and we would state that the two means are statistically similar.
-  
-	 
+
+## Study Design: MechaCar vs Competition
+In the first part of this analysis it was determined that **Vehicle Weight**, **Spoiler Angle**, and **AWD** had an affect on the MechaCar **MPG**.
+It would be interesting to compare one of these same three variables to a competitor's car to see if they have the same or statistically similar affect on the **MPG**.
+
+- The null hypothesis would be that affect of **Vehicle Weight**, **Spoiler Angle**, or **AWD** on **MPG** of the MechaCar is same as the Competitor's.
+	- H0: There is no statistical difference between the two observed sample means.
+- A one-way ANOVA test could be used. But I would start with the same linear regression test in the first part of this analysis to validate the p-values for the competitor's car. Otherwise, the test maybe a waste of time.
+- The data needed to run the test is the (**Vehicle Weight**, **Spoiler Angle**, or **AWD**) and **MPG**.
 	 
