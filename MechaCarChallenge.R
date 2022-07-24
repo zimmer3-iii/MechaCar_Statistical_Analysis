@@ -23,3 +23,26 @@ total_summary <- Coil_Table %>% summarize(Mean_PSI=mean(PSI),Median_PSI=median(P
 
 #Lot Summary
 lot_summary <- Coil_Table %>% group_by(Manufacturing_Lot)  %>% summarize(Mean_PSI=mean(PSI),Median_PSI=median(PSI),Variance_PSI=var(PSI),SD_PSI=sd(PSI), .groups ='keep')
+
+
+#Technical Analysis
+
+#Samples
+sample_table <- Coil_Table %>% sample_n(50) 
+#T Test Sample vs Population
+t.test(sample_table$PSI,mu=mean(Coil_Table$PSI))
+
+#Lot 1 Summary
+lot01_summary <- Coil_Table %>% filter(Manufacturing_Lot=='Lot1')
+#T Test Lot 1 vs Population
+t.test(lot01_summary$PSI,mu=mean(Coil_Table$PSI))
+
+#Lot 2 Summary
+lot02_summary <- Coil_Table %>% filter(Manufacturing_Lot=='Lot2')
+#T Test Lot 2 vs Population
+t.test(lot02_summary$PSI,mu=mean(Coil_Table$PSI))
+
+#Lot 3 Summary
+lot03_summary <- Coil_Table %>% filter(Manufacturing_Lot=='Lot3')
+#T Test Lot 3 vs Population
+t.test(lot03_summary$PSI,mu=mean(Coil_Table$PSI))
