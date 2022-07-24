@@ -1,7 +1,7 @@
 # MechaCar_Statistical_Analysis
 
 ## Linear Regression to Predict MPG
-###Results
+### Results
 Residuals:
      Min       1Q   Median       3Q      Max 
 -19.4701  -4.4994  -0.0692   5.4433  18.5849 
@@ -20,7 +20,7 @@ Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’
 Residual standard error: 8.774 on 44 degrees of freedom
 Multiple R-squared:  0.7149,	Adjusted R-squared:  0.6825 
 F-statistic: 22.07 on 5 and 44 DF,  p-value: 5.35e-11
-###Summary
+### Summary
 Sig
 
-##Trip Analysis
+## Trip Analysis
