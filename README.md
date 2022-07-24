@@ -33,13 +33,13 @@
 ![Sample Vs Population](https://github.com/zimmer3-iii/MechaCar_Statistical_Analysis/blob/main/Images/TTest_SampleVSPopulation.png)
 
 #### Lot 01 vs Population:
-![Lot#01 Vs Population] (https://github.com/zimmer3-iii/MechaCar_Statistical_Analysis/blob/main/Images/TTest_Lot01vsPopulation.png)
+![Lot01 Vs Population] (https://github.com/zimmer3-iii/MechaCar_Statistical_Analysis/blob/main/Images/TTest_Lot01vsPopulation.png)
 
 #### Lot 02 vs Population:
-![Lot#02 Vs Population] (https://github.com/zimmer3-iii/MechaCar_Statistical_Analysis/blob/main/Images/TTest_Lot02vsPopulation.png)
+![Lot02 Vs Population] (https://github.com/zimmer3-iii/MechaCar_Statistical_Analysis/blob/main/Images/TTest_Lot02vsPopulation.png)
 
 #### Lot 03 vs Population:
-![Lot#03 Vs Population] (https://github.com/zimmer3-iii/MechaCar_Statistical_Analysis/blob/main/Images/TTest_Lot03vsPopulation.png)
+![Lot03 Vs Population] (https://github.com/zimmer3-iii/MechaCar_Statistical_Analysis/blob/main/Images/TTest_Lot03vsPopulation.png)
 
 ### Summary
 - **Sample Vs Population**
